@@ -1,0 +1,43 @@
+# SANDBOX_DEVELOP_NODE_LIGHT_STATE
+
+**Namespace:** `Torappu.UI.SandboxPerm.SandboxV2`
+
+
+## Fields
+
+- `Int32 value__`
+
+
+## Enum Values
+| Value | Name |
+|-------|------|
+
+| 0 | CANT_LIGHT_UP |
+
+| 1 | NEED_LIGHT_UP_BEFORE_FRONT_LIGHTED |
+
+| 2 | NEED_LIGHT_UP_BY_DOT_BUT_DOT_NOT_ENOUGH |
+
+| 3 | NEED_LIGHT_UP_BY_DOT_BUT_BASE_LEVEL_NOT_ENOUGH |
+
+| 4 | NEED_LIGHT_UP_BY_DOT |
+
+| 5 | LIGHTED |
+
+## Dump
+```C#
+// Dll : Assembly-CSharp.dll
+// Namespace : Torappu.UI.SandboxPerm.SandboxV2
+public enum SANDBOX_DEVELOP_NODE_LIGHT_STATE
+{
+	public Int32 value__; // 0x10
+	public const SANDBOX_DEVELOP_NODE_LIGHT_STATE CANT_LIGHT_UP = 0; // 0x0
+	public const SANDBOX_DEVELOP_NODE_LIGHT_STATE NEED_LIGHT_UP_BEFORE_FRONT_LIGHTED = 1; // 0x0
+	public const SANDBOX_DEVELOP_NODE_LIGHT_STATE NEED_LIGHT_UP_BY_DOT_BUT_DOT_NOT_ENOUGH = 2; // 0x0
+	public const SANDBOX_DEVELOP_NODE_LIGHT_STATE NEED_LIGHT_UP_BY_DOT_BUT_BASE_LEVEL_NOT_ENOUGH = 3; // 0x0
+	public const SANDBOX_DEVELOP_NODE_LIGHT_STATE NEED_LIGHT_UP_BY_DOT = 4; // 0x0
+	public const SANDBOX_DEVELOP_NODE_LIGHT_STATE LIGHTED = 5; // 0x0
+
+
+}
+```

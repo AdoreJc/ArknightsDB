@@ -8,7 +8,7 @@ A personal analysis library for storing Arknights code structure.
 [明日方舟](https://ak.hypergryph.com/)使用[Unity](https://unity.com/)制作，基于[C#](https://learn.microsoft.com/zh-cn/dotnet/csharp/)编程
 
 ## Operator 干员
-[Skill 技能](./repo/Skill.md)
+[Skill 技能](./repo/Operator/Roles/Skill/Overview.md)
 
 ## Squads 队列
 
@@ -32,3 +32,5 @@ A personal analysis library for storing Arknights code structure.
 ## Depot 物品
 
 ## Friends 好友
+
+## Hotfix 热更新

@@ -1,0 +1,31 @@
+# VoiceControlMethod
+
+**Namespace:** ` `
+
+
+## Fields
+
+- `Int32 value__`
+
+
+## Enum Values
+| Value | Name |
+|-------|------|
+
+| 0 | PreferLast |
+
+| 1 | PreferFirst |
+
+## Dump
+```C#
+// Dll : CriMw.CriWare.Runtime.dll
+// Namespace : 
+public enum VoiceControlMethod
+{
+	public Int32 value__; // 0x10
+	public const VoiceControlMethod PreferLast = 0; // 0x0
+	public const VoiceControlMethod PreferFirst = 1; // 0x0
+
+
+}
+```

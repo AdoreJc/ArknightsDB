@@ -1,0 +1,31 @@
+# InventoryData
+
+**Namespace:** `Torappu`
+
+
+## Dump
+```C#
+// Dll : Assembly-CSharp.dll
+// Namespace : Torappu
+public class InventoryData
+{
+	public Dictionary`2 items; // 0x10
+	public Dictionary`2 expItems; // 0x18
+	public Dictionary`2 potentialItems; // 0x20
+	public Dictionary`2 apSupplies; // 0x28
+	public Dictionary`2 charVoucherItems; // 0x30
+	public Dictionary`2 uniqueInfo; // 0x38
+	public Dictionary`2 itemTimeLimit; // 0x40
+	public Dictionary`2 uniCollectionInfo; // 0x48
+	public Dictionary`2 itemPackInfos; // 0x50
+	public Dictionary`2 fullPotentialCharacters; // 0x58
+	public Dictionary`2 activityPotentialCharacters; // 0x60
+	public Dictionary`2 favorCharacters; // 0x68
+
+
+	// RVA: 0x34a3530 VA: 0x7595abb530
+	public virtual Boolean ShouldSerializefavorCharacters() { }
+	// RVA: 0x34a3584 VA: 0x7595abb584
+	public Void .ctor() { }
+}
+```
