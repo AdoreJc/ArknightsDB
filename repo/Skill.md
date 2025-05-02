@@ -18,7 +18,6 @@ public class PlayerCharSkill
 
 ## SkillData
 ```C#
-// Dll : Assembly-CSharp.dll
 // Namespace: Torappu.DB.Test
 [Serializable]
 public class SkillData
@@ -40,7 +39,6 @@ public class SkillData
 ```
 
 ```C#
-// Dll : Assembly-CSharp.dll
 // Namespace: Torappu
 [Serializable]
 public class SkillData : ISkillData, IHotfixable
